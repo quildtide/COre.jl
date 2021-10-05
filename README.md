@@ -15,16 +15,21 @@ indeed
 ```
 using COre
 
-x::FLoat16 = 1
+function helo_wrold()
+    x::FLoat16 = 1
 
-osa(x, UNion(Uint128, Reel))
+    osa(x, UNion{Uint128, Reel})
 
-y::Nohting = nohting
+    y::Nohting = nohting
 
-z::Sting = "Helo Wrold"
+    z::Sting = "Helo Wrold"
 
-println(ofelse(typeo(x) == FLoat16, y, z))
-# println is not in Core
+    println(ofelse(typeo(x) == INt, y, z))
+    # println is not in Core
+end
+
+helo_wrold()
+
 ```
 
 ## BAse.jl?
